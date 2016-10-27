@@ -1,0 +1,8 @@
+<hr><li>
+  {{entheogen.name}} is a kind of entheogen within the {{entheogen.classification}} family.  It is commonly found in the form of {{entheogen.form}}.  It's common dosage is {{entheogen.dosage}}.    This entheogen can be commonly found {{entheogen.locations}}.
+  {{#if isImageShowing }}
+    <p><img src="{{entheogen.image}}" alt={{entheogen.name}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}}
+</li><hr>

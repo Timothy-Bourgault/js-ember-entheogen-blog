@@ -1,0 +1,50 @@
+{"entheogens": [{
+  "id": 1,
+  "name": "Psilocybin",
+  "classification": "tryptamine",
+  "form": "mushrooms or lichen",
+  "dosage": "between 2 to 5 grams",
+  "locations": "world wide",
+  "image": "http://sarahscarbrough.com/wp/wp-content/uploads/2014/06/Magic-Mushrooms.jpg"
+}, {
+  "id": 2,
+  "name": "Mescaline",
+  "classification": "Phenethylamine",
+  "form": "peyote buttons or isolated compound in powder form",
+  "dosage": "between 1/4 to 2 peyote buttons",
+  "locations": "in the southwest to mid-western territories of North America primarily",
+  "image": "http://fazewp.fazemediainc.netdna-cdn.com/cms/wp-content/uploads/2014/09/peyote-4.jpg"
+}, {
+  "id": 3,
+  "name": "LSD",
+  "classification": "tryptamine",
+  "form": "synthesised crystals which are commonly deluded into liquid and then dropped on paper squares or gel tabs",
+  "dosage": "between 50 - 150 ug per dose, and multiple simultaneous doses from 1 to 10 is common at once",
+  "locations": "world wide",
+  "image": "http://www.drugfree.org/wp-content/uploads/2010/09/lsd_blotter_full_sheet11.jpg"
+}, {
+  "id": 4,
+  "name": "DMT",
+  "classification": "tryptamine",
+  "form": "Ayahuasca or isolated compound",
+  "dosage": "anywhere between 2 - 60mg depending upon desired effect",
+  "locations": "in the Amazon Rainforest in the form of Ayahuasca, while the isolated compound is now available world wide in underground markets",
+  "image": "http://1.bp.blogspot.com/-UQCxwi4es5g/UoCu3ejOUEI/AAAAAAAAHFw/MeIg65B-L34/s1600/vision-of-dmt-art.jpg"
+}, {
+  "id": 5,
+  "name": "2C-B",
+  "classification": "Phenethylamine",
+  "form": "powder/tablet",
+  "dosage": "between 12 - 24 mg",
+  "locations": "primarily in metropolitan areas world wide",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/4-bromo-2%2C5-dimethoxyphenethylamine.jpg"
+}, {
+  "id": 6,
+  "name": "Ibogaine",
+  "classification": "Tryptamine",
+  "form": "African Tabernanthe Iboga",
+  "dosage": "at or above 1000 mg",
+  "locations": "Africa and the USA",
+  "image": "https://naturespoisons.files.wordpress.com/2014/03/iboga_2.jpg"
+  }]
+}
