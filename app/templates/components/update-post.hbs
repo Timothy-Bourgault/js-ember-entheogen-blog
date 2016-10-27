@@ -1,0 +1,40 @@
+{{#if updatePostForm}}
+  <h4>Update the blog post for {{entheogen.name}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        {{input value=name id="name" placeholder=entheogen.name}}
+      </div>
+
+      <div class="form-group">
+        <label for="classification">Classification:</label>
+        {{input value=classification id="classification" placeholder=entheogen.classification}}
+      </div>
+
+      <div class="form-group">
+        <label for="form">Common Form:</label>
+        {{input value=form id="form" placeholder=entheogen.form}}
+      </div>
+
+      <div class="form-group">
+        <label for="dosage">Average Dosage:</label>
+        {{input value=dosage id="dosage" placeholder=entheogen.dosage}}
+      </div>
+
+      <div class="form-group">
+        <label for="locations">Locations Found:</label>
+        {{input value=locations id="locations" placeholder=entheogen.locations}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL:</label>
+        {{input value=image id="image" placeholder=entheogen.image}}
+      </div>
+
+      <button {{action 'update' entheogen}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updatePostForm'}}>Update</button>
+{{/if}}  

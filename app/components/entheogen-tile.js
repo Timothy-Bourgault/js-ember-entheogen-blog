@@ -2,12 +2,21 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   isImageShowing: false,
+  updatePostForm: false,
   actions: {
-    imageShow: function() {
+    imageShow() {
       this.set('isImageShowing', true);
     },
-    imageHide: function() {
+    imageHide() {
       this.set('isImageShowing', false);
+    },
+    update(entheogen, params) {
+      this.sendAction('update', entheogen, params);
+    },
+    delete(entheogen) {
+      if (confirm('Are you sure you want to delete this Post?')) {
+        this.sendAction('destroyPost', entheogen);
+      }
     }
   }
 });

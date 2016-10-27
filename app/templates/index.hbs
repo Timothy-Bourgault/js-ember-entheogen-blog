@@ -4,9 +4,11 @@ We hope you find the sacrement that is right for you!!
 
 <ul>
   {{#each model as |entheogen|}}
-    {{entheogen-tile entheogen=entheogen}}
+    {{entheogen-tile entheogen=entheogen update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
+
+{{new-post savePost="savePost"}}
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}

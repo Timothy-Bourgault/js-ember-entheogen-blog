@@ -1,0 +1,40 @@
+{{#if addNewPost}}
+  <h1>New Entheogen Post</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        {{input value=name id="name"}}
+      </div>
+
+      <div class="form-group">
+        <label for="classification">Classification:</label>
+        {{input value=classification id="classification"}}
+      </div>
+
+      <div class="form-group">
+        <label for="form">Common Form:</label>
+        {{input value=form id="form"}}
+      </div>
+
+      <div class="form-group">
+        <label for="dosage">Average Dosage:</label>
+        {{input value=dosage id="dosage"}}
+      </div>
+
+      <div class="form-group">
+        <label for="locations">Locations Found:</label>
+        {{input value=locations id="locations"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL:</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'savePost'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'postFormShow'}}>New Post</button>
+{{/if}}
