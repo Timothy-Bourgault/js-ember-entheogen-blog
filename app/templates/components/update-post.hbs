@@ -2,39 +2,39 @@
   <h4>Update the blog post for {{entheogen.name}}</h4>
   <div>
     <form>
-      <div class="form-group">
+      <div class="form-group centerForm">
         <label for="name">Name:</label>
         {{input value=name id="name" placeholder=entheogen.name}}
       </div>
 
-      <div class="form-group">
-        <label for="classification">Classification:</label>
+      <div class="form-group centerForm">
+        <label for="classification">Class:</label>
         {{input value=classification id="classification" placeholder=entheogen.classification}}
       </div>
 
-      <div class="form-group">
-        <label for="form">Common Form:</label>
+      <div class="form-group centerForm">
+        <label for="form">Form:</label>
         {{input value=form id="form" placeholder=entheogen.form}}
       </div>
 
-      <div class="form-group">
-        <label for="dosage">Average Dosage:</label>
+      <div class="form-group centerForm">
+        <label for="dosage">Doses:</label>
         {{input value=dosage id="dosage" placeholder=entheogen.dosage}}
       </div>
 
-      <div class="form-group">
-        <label for="locations">Locations Found:</label>
+      <div class="form-group centerForm">
+        <label for="locations">Found:</label>
         {{input value=locations id="locations" placeholder=entheogen.locations}}
       </div>
 
-      <div class="form-group">
-        <label for="image">Image URL:</label>
+      <div class="form-group centerForm">
+        <label for="image">Image:</label>
         {{input value=image id="image" placeholder=entheogen.image}}
       </div>
 
-      <button {{action 'update' entheogen}}>Save</button>
+      <button class="newPostBtn" {{action 'update' entheogen}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updatePostForm'}}>Update</button>
-{{/if}}  
+  <button class="newPostBtn" {{action 'updatePostForm'}}>Update</button>
+{{/if}}

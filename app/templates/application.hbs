@@ -3,6 +3,18 @@
   <header class= "jumbotron">
     <h1>Entheo Blogger</h1>
   </header>
+  <nav class="nav-main_sticky">
+    <div class="nav-container navigator">
+      <div class="socialIcons">
+      </div>
+      <div class="threeLines">
+        <img class="lines pull-left" src="http://alexandstein.com/resources/images/icons/hamburger.png">
+      </div>
+      <div class="bustleLogo">
+        {{#link-to 'index'}}<img class="bustleImg" >{{/link-to}}
+      </div>
+    </div>
+  </nav>
   <div id="pictureCarousel" class="carousel slide jumbotron">
     <div class="container">
       <ol class="carousel-indicators">
@@ -14,6 +26,9 @@
       </ol>
       <div class="carousel-inner centerImg">
         <div class="item active centerImg">
+          <img class="images carouselImg" src="http://web.stanford.edu/~siegelr/anonuevo/fungi/IMG_9274%20amanita%20muscaria.jpg" alt="Amanita Muscaria" />
+        </div>
+        <div class="item centerImg">
           <img class="images carouselImg" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Salvia_divinorum_-_Herba_de_Maria.jpg" alt="Salvia Divinorum" />
         </div>
         <div class="item centerImg">
@@ -25,9 +40,6 @@
         <div class="item centerImg">
           <img class="images carouselImg" src="https://blog.bulakavahouse.com/wp-content/uploads/kava_making_2_original.jpg" alt="Kava" />
         </div>
-        <div class="item centerImg">
-          <img class="images carouselImg" src="http://web.stanford.edu/~siegelr/anonuevo/fungi/IMG_9274%20amanita%20muscaria.jpg" alt="Amanita Muscaria" />
-        </div>
       </div>
     </div>
     <a class="left carousel-control" href="#pictureCarousel" data-slide="prev"></a>
@@ -36,7 +48,6 @@
       <span class="icon-next"></span>
   </div>
   {{outlet}}
-  <hr>
   <footer>
     {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
   </footer>

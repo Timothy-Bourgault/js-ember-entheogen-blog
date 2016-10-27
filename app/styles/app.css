@@ -1,19 +1,55 @@
 body {
-  background-color: #f4f4f4;
+  background-color: black;
 }
 h1 {
   text-align: center;
   font-family: 'Alfa Slab One', cursive;
+  color: #b6c4db;
+}
+.navigator {
+  background-color: #545556;
+  margin-bottom: 2em;
 }
 h2 {
   text-align: center;
   font-family: 'Comfortaa', cursive;
+  color: #b6c4db;
+}
+h4 {
+  color: #b6c4db;
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+}
+.centerForm {
+  text-align: center;
+}
+label {
+  font-family: 'Monoton', cursive;
+  color: #5788d6;
 }
 li {
   list-style: none;
   text-align: center;
   font-family: 'Happy Monkey', cursive;
   font-size: 4em;
+  color: #b6c4db;
+}
+form-group {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
+.newPostBtn {
+  text-align: center;
+  font-size: 2em;
+}
+button {
+  background-color: darkorange;
+}
+p {
+  font-size: 2em;
+  font-family: 'Unica One', cursive;
+  color: #cdd2d8;
+  text-align: center;
 }
 .articleImg{
   height: 20em;

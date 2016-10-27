@@ -1,4 +1,5 @@
 {{#if addNewPost}}
+<hr>
   <h1>New Entheogen Post</h1>
   <div>
     <form>
@@ -36,5 +37,7 @@
     </form>
   </div>
 {{else}}
-  <button {{action 'postFormShow'}}>New Post</button>
+  <div class="newPostBtn">
+    <hr><button {{action 'postFormShow'}}>Add A New Post</button>
+  </div>
 {{/if}}
