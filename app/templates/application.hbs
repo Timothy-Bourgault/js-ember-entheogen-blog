@@ -1,0 +1,43 @@
+
+<div class= "container">
+  <header class= "jumbotron">
+    <h1>Entheo Blogger</h1>
+  </header>
+  <div id="pictureCarousel" class="carousel slide jumbotron">
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#picturesCarousel" data-slide-to="0"></li>
+        <li data-target="#picturesCarousel" data-slide-to="1"></li>
+        <li data-target="#picturesCarousel" data-slide-to="2"></li>
+        <li data-target="#picturesCarousel" data-slide-to="3"></li>
+        <li data-target="#picturesCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner centerImg">
+        <div class="item active centerImg">
+          <img class="images carouselImg" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Salvia_divinorum_-_Herba_de_Maria.jpg" alt="Salvia Divinorum" />
+        </div>
+        <div class="item centerImg">
+          <img class="images carouselImg" src="http://tipsplants.com/sites/default/files/morning_glory_0.jpg" alt="Morning Glories" />
+        </div>
+        <div class="item centerImg">
+          <img class="images carouselImg" src="http://finedininglovers.cdn.crosscast-system.com/ImageAlbum/6391/original_ARTICLE-IMAGE-assenzio.jpg" alt="Absinthe" />
+        </div>
+        <div class="item centerImg">
+          <img class="images carouselImg" src="https://blog.bulakavahouse.com/wp-content/uploads/kava_making_2_original.jpg" alt="Kava" />
+        </div>
+        <div class="item centerImg">
+          <img class="images carouselImg" src="http://web.stanford.edu/~siegelr/anonuevo/fungi/IMG_9274%20amanita%20muscaria.jpg" alt="Amanita Muscaria" />
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#pictureCarousel" data-slide="prev"></a>
+      <span class="icon-prev"></span>
+    <a class="right carousel-control" href="#pictureCarousel" data-slide="next"></a>
+      <span class="icon-next"></span>
+  </div>
+  {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
+  </footer>
+</div>

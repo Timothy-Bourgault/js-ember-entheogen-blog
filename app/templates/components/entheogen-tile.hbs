@@ -1,10 +1,8 @@
 <hr><li>
-  {{entheogen.name}} is a kind of entheogen within the {{entheogen.classification}} family.  It is commonly found in the form of {{entheogen.form}}.  It's common dosage is {{entheogen.dosage}}.    This entheogen can be commonly found {{entheogen.locations}}.
+  {{#link-to 'entheogen' entheogen.id}}{{entheogen.name}} details {{/link-to}}<br>
   {{#if isImageShowing }}
     <p><img src="{{entheogen.image}}" alt={{entheogen.name}} {{action 'imageHide'}}></p>
   {{else}}
     <button {{action 'imageShow'}}>Show Image</button>
   {{/if}}
-  {{update-post entheogen=entheogen update="update"}}
-  <button {{action 'delete' rental}}>Delete Post</button>
 </li><hr>

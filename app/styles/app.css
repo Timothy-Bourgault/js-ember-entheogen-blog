@@ -1,1 +1,93 @@
+body {
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+}
+h2 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+li {
+  list-style: none;
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  font-size: 4em;
+}
+.articleImg{
+  height: 20em;
+  width: 41em;
+}
+.articlePic{
+  height: 100%;
+  width: 100%;
+}
+.socialIcons {
+  position: absolute;
+  right: 0;
+}
+.threeLines {
+  position: absolute;
+  left: 0;
+}
+.nav-container {
+  position: relative;
+}
+.bustleLogo {
+  text-align: center;
+  margin: 0 auto;
+}
+.item {
+  width: 70em;
+  height: 40em;
+}
+.bustleImg{
+  height: 2em;
+}
+.jumbotron {
+  background-color: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.carouselImg {
+  width: 100%;
+  height: 100%;
+}
+.centerImg {
+  text-align: center;
+}
+.carousel-inner > .item > img {
+  margin: 0  auto;
+}
+.navbar-toggle {
+ display: block;
+ width: 40px;
+ height: 38px;
+ background-color: white;
+ border-radius: 1px;
+}
+.sticky {
+  top: 0 !important;
+  margin: 0 auto !important;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+.lines {
+  width: 1.5em;
+}
+#pictureCarousel {
+  margin-bottom: 0;
+}
 
+.nav-main_sticky {
+  margin-top: 0;
+  background-color: white;
+}
+.socialIcon {
+  height: 1.5em;
+  margin-top: .2em;
+  padding-right: .8em;
+  float:right;
+}
