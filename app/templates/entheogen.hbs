@@ -1,5 +1,7 @@
 <h2>More information about {{model.name}}</h2>
 
-{{update-post entheogen=model update="update"}}
 
+<button {{action 'goBack' entheogen}}>Return Home</button><br>
 {{entheogen-detail entheogen=model destroyPost="destroyPost"}}
+
+{{update-post entheogen=model update="update"}}

@@ -2,7 +2,5 @@
   {{#link-to 'entheogen' entheogen.id}}<strong>{{entheogen.name}}</strong>{{/link-to}}<br>
   {{#if isImageShowing }}
     <p><img src="{{entheogen.image}}" alt={{entheogen.name}} {{action 'imageHide'}}></p>
-  {{else}}
-    <button {{action 'imageShow'}}>Show Image</button>
   {{/if}}
 </li>

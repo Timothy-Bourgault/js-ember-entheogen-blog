@@ -5,13 +5,20 @@
   </header>
   <nav class="nav-main_sticky">
     <div class="nav-container navigator">
-      <div class="socialIcons">
-      </div>
       <div class="threeLines">
-        <img class="lines pull-left" src="http://alexandstein.com/resources/images/icons/hamburger.png">
       </div>
       <div class="bustleLogo">
-        {{#link-to 'index'}}<img class="bustleImg" >{{/link-to}}
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="lines pull-left" src="http://alexandstein.com/resources/images/icons/hamburger.png"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://localhost:4200/entheogen/0">Psilocybin</a></li>
+            <li><a href="http://localhost:4200/entheogen/1">Mescaline</a></li>
+            <li><a href="http://localhost:4200/entheogen/2">LSD</a></li>
+            <li><a href="http://localhost:4200/entheogen/3">DMT</a></li>
+            <li><a href="http://localhost:4200/entheogen/4">2C-B</a></li>
+            <li><a href="http://localhost:4200/entheogen/5">Iboga</a></li>
+          </ul>
+        </li>
       </div>
     </div>
   </nav>
